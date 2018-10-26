@@ -34,6 +34,9 @@ _This program is just a silly number replacement algorithm I've been asked to do
 * Program replaces numbers that are divisible by three with "I'm sorry Dave.  I'm afraid I can't do that."
     * Example Input: 102
     * Example Output: "I'm sorry Dave.  I'm afraid I can't let you do that."
+* Program can take the user's name and replace Dave with it.
+    * Example Input: Rohan, 102
+    * Example Output: "I'm sorry Rohan.  I'm afraid I can't let you do that."
 * If no other conditions are met, program outputs the number.
     * Example Input: 4
     * Example Output: 4
