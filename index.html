@@ -10,15 +10,22 @@
   </head>
   <body>
     <div class="container">
-      <form id="input">
-        <div class="form-group">
-          <label for="inputValue">Input a Number (Greater than Zero):</label>
-          <input type="text" id="inputValue">
-        </div>
-        <button type="submit">Get your results!</button>
-      </form>
-      <p id="output"></p>
-      <p class="error" id="illegalValue">This is an invalid input!  Please try again!</p>
+      <h1 class="jumbotron">Beep Boop! The computer will take over the world!</h1>
+      <div class="well">
+        <form id="input">
+          <div class="form-group">
+            <label for="inputValue">Input a Number (Greater than Zero):</label>
+            <input type="text" id="inputValue">
+          </div>
+          <button type="submit">Get your results!</button>
+        </form>
+      </div>
+      <div class="well" id="outputWell">
+        <p id="output"></p>
+      </div>
+      <div class="well" id="illegalValue">
+        <p class="error">This is an invalid input!  Please try again!</p>
+      </div>
     </div>
   </body>
 </html>

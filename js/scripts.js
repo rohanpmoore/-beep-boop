@@ -24,10 +24,12 @@ $(document).ready(function() {
     if((!myNumber && myNumber != 0) || myNumber < 0) {
       $("#output").text("");
       $("#illegalValue").show();
+      $("#outputWell").hide();
     } else {
       var myString = getString(myNumber);
       $("#output").text(myString);
       $("#illegalValue").hide();
+      $("#outputWell").show();
     }
   });
 });
