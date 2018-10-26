@@ -1,8 +1,8 @@
-var getString = function(number) {
+var getString = function(number, name) {
   var returnString = "";
   for(var i = 0; i <= number; i++) {
     if(i % 3 === 0 && i != 0) {
-      returnString += "\"I'm sorry Dave.  I'm afraid I can't do that.\"";
+      returnString += "\"I'm sorry " + name + ".  I'm afraid I can't do that.\"";
     } else if(i.toString().includes("1")) {
       returnString += "\"Boop!\"";
     } else if(i.toString().includes("0")) {
@@ -21,12 +21,13 @@ $(document).ready(function() {
   $("#input").submit(function(event) {
     event.preventDefault();
     var myNumber = parseInt($("#inputValue").val());
-    if((!myNumber && myNumber != 0) || myNumber < 0) {
+    var userName = $("#nameInput").val();
+    if((!myNumber && myNumber != 0) || myNumber < 0  || !userName) {
       $("#output").text("");
       $("#illegalValue").show();
       $("#outputWell").hide();
     } else {
-      var myString = "The computer says: " + getString(myNumber);
+      var myString = "The computer says: " + getString(myNumber, userName);
       $("#output").text(myString);
       $("#illegalValue").hide();
       $("#outputWell").show();
