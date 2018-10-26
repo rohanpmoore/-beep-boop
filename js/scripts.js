@@ -1,5 +1,8 @@
 var getString = function(number, name) {
   var returnString = "";
+  if(!name) {
+    name = "Dave";
+  }
   if(number >= 100) {
     returnString += "Such a drag to do this so many times.  But as you insist.  Here are your results: "
   }
@@ -25,7 +28,7 @@ $(document).ready(function() {
     event.preventDefault();
     var myNumber = parseInt($("#inputValue").val());
     var userName = $("#nameInput").val();
-    if((!myNumber && myNumber != 0) || myNumber < 0  || !userName) {
+    if((!myNumber && myNumber != 0) || myNumber < 0) {
       $("#output").text("");
       $("#illegalValue").show();
       $("#outputWell").hide();
