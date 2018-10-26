@@ -26,7 +26,7 @@ $(document).ready(function() {
       $("#illegalValue").show();
       $("#outputWell").hide();
     } else {
-      var myString = getString(myNumber);
+      var myString = "The computer says: " + getString(myNumber);
       $("#output").text(myString);
       $("#illegalValue").hide();
       $("#outputWell").show();
