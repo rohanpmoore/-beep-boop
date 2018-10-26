@@ -1,0 +1,8 @@
+.error {
+  color: red;
+  text-decoration: underline;
+}
+
+#illegalValue {
+  display: none;
+}
