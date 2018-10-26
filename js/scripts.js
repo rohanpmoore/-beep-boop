@@ -1,5 +1,8 @@
 var getString = function(number, name) {
   var returnString = "";
+  if(number >= 100) {
+    returnString += "Such a drag to do this so many times.  But as you insist.  Here are your results: "
+  }
   for(var i = 0; i <= number; i++) {
     if(i % 3 === 0 && i != 0) {
       returnString += "\"I'm sorry " + name + ".  I'm afraid I can't do that.\"";

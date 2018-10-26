@@ -32,10 +32,10 @@ _This program is just a silly number replacement algorithm I've been asked to do
     * Example Input: 10
     * Example Output: "Boop!"
 * Program replaces numbers that are divisible by three with "I'm sorry Dave.  I'm afraid I can't do that."
-    * Example Input: 102
+    * Example Input: 12
     * Example Output: "I'm sorry Dave.  I'm afraid I can't let you do that."
 * Program can take the user's name and replace Dave with it.
-    * Example Input: Rohan, 102
+    * Example Input: Rohan, 12
     * Example Output: "I'm sorry Rohan.  I'm afraid I can't let you do that."
 * If no other conditions are met, program outputs the number.
     * Example Input: 4
@@ -43,6 +43,9 @@ _This program is just a silly number replacement algorithm I've been asked to do
 * Program outputs a string of all numbers from zero to a user selected number with the appropriate replacements.
     * Example Input: 5
     * Example Output: "Beep!", "Boop!", "I'm sorry...", 4, 5
+* Program adds extra portion on front of message if the number is over 99.
+    * Example Input: 100
+    * Example Output: Such a drag to do this so many times.  But as you insist.  Here are your results: "Beep!", "Boop!" ...
 * Program handles invalid inputs (inputs less than zero or non-numerical inputs)
     * Example Input: "Boop!"
     * Example Output: Error Message
