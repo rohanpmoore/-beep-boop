@@ -19,23 +19,29 @@ _This program is just a silly number replacement algorithm I've been asked to do
 
 ## Specifications
 
-* Program replaces 0 with "beep".
+* Program replaces 0 with "Beep!".
     * Example Input: 0
-    * Example Output: "beep"
-* Program replaces 1 with "boop".
+    * Example Output: "Beep!"
+* Program replaces 1 with "Boop!".
     * Example Input: 1
-    * Example Output: "boop"
-* Program replaces numbers with a 0 in them with "beep".
+    * Example Output: "Boop!"
+* Program replaces numbers with a 0 in them with "Beep!".
     * Example Input: 20
-    * Example Output: "beep"
-* Program replaces numbers with a 1 in them with "boop".
+    * Example Output: "Beep!"
+* Program replaces numbers with a 1 in them with "Boop!".
     * Example Input: 10
-    * Example Output: "boop"
+    * Example Output: "Boop!"
 * Program replaces numbers that are divisible by three with "I'm sorry Dave.  I'm afraid I can't do that."
     * Example Input: 102
     * Example Output: "I'm sorry Dave.  I'm afraid I can't let you do that."
+* If no other conditions are met, program outputs the number.
+    * Example Input: 4
+    * Example Output: 4
+* Program outputs a string of all numbers from zero to a user selected number with the appropriate replacements.
+    * Example Input: 5
+    * Example Output: "Beep!", "Boop!", "I'm sorry...", 4, 5
 * Program handles invalid inputs (inputs less than zero or non-numerical inputs)
-    * Example Input: "boop"
+    * Example Input: "Boop!"
     * Example Output: Error Message
 
 ## Support and Contact Details
