@@ -3,6 +3,18 @@ body {
   background-image: repeating-radial-gradient(red, yellow);
 }
 
+h3 {
+  font-weight: bold;
+}
+
+p {
+  font-family: monospace;
+}
+
+label {
+  font-weight: normal;
+}
+
 .error {
   color: red;
   text-decoration: underline;
