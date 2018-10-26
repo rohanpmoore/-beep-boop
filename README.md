@@ -15,7 +15,7 @@ _This program is just a silly number replacement algorithm I've been asked to do
 
 ## Known Bugs
 
-* _No bugs currently known._
+* _No known bugs._
 
 ## Specifications
 
